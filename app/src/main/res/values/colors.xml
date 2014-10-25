@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pressed_state_color">#33999999</color>
+    <color name="content_background_color">#fff1f1f1</color>
+    <color name="action_bar_background_color">#ffffff</color>
+    <color name="action_bar_background_color_dark">#5f2c93</color>
+    <color name="action_bar_title_text_color">#de000000</color>
+    <color name="action_bar_title_text_color_dark">#deffffff</color>
+    <color name="dialog_content_text_color">#99000000</color>
+    <color name="dialog_hint_text_color">#ffa3a3a3</color>
+    <color name="photo_background">#ffe1e1e1</color>
+    <color name="photo_background_pressed">#d3d3d3</color>
+
+    <color name="dialog_title_text_color">#cc000000</color>
+    <color name="drawer_text_color">#ff000000</color>
+    <color name="drawer_text_selected_color">#ff3b50ce</color>
+
+    <color name="add_item_pressed_state_color">#66999999</color>
+
+
+    <integer-array name="gplus_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#f4b400</color>
+    <color name="gplus_color_3">#427fed</color>
+    <color name="gplus_color_4">#b23424</color>
+    <color name="white_translucent">#bbffffff</color>
+    <color name="purple">#7935c0</color>
+</resources>

@@ -1,0 +1,239 @@
+<resources>
+
+    <style name="CharityTheme" parent="@style/AppTheme.Dark" />
+
+    <style name="AppTheme" parent="@style/AppThemeBase">
+        <item name="android:windowBackground">@color/content_background_color</item>
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+        <item name="android:actionButtonStyle">@style/ActionButtonStyle</item>
+        <item name="android:actionBarSize">@dimen/action_bar_size</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionOverflowButtonStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_24dp</item>
+        <item name="cpbStyle">@style/CircularThemeProgressBar</item>
+    </style>
+
+    <style name="AppTheme.Dark" parent="@style/AppThemeBase">
+        <item name="android:windowBackground">@color/content_background_color</item>
+        <item name="android:actionBarStyle">@style/ActionBarStyle.Dark</item>
+        <item name="android:actionButtonStyle">@style/ActionButtonStyle</item>
+        <item name="android:actionBarSize">@dimen/action_bar_size</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionOverflowButtonStyle.Dark</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_dark</item>
+        <item name="cpbStyle">@style/CircularThemeProgressBar</item>
+    </style>
+
+    <style name="ActionBarStyle" parent="@style/Widget.ActionBar">
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:background">@color/action_bar_background_color</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleStyle</item>
+    </style>
+
+    <style name="ActionBarStyle.Dark" parent="@style/Widget.ActionBar">
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:background">@color/action_bar_background_color_dark</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleStyle.Dark</item>
+    </style>
+
+    <style name="ActionBarTitleStyle" parent="@style/TextAppearance.Widget.ActionBar.Title">
+        <item name="android:textSize">@dimen/xlarge_font_size</item>
+        <item name="android:textColor">@color/action_bar_title_text_color</item>
+    </style>
+
+    <style name="ActionBarTitleStyle.Dark" parent="@style/TextAppearance.Widget.ActionBar.Title">
+        <item name="android:textSize">@dimen/xlarge_font_size</item>
+        <item name="android:textColor">@color/action_bar_title_text_color_dark</item>
+    </style>
+
+    <style name="ActionButtonStyle" parent="@android:style/Widget.ActionButton">
+        <item name="android:scaleType">center</item>
+        <item name="android:minWidth">@dimen/action_button_min_width</item>
+    </style>
+
+    <style name="ActionOverflowButtonStyle" parent="@android:style/Widget.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_sysbar_menu_24dp</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:minWidth">@dimen/action_button_min_width</item>
+    </style>
+
+    <style name="ActionOverflowButtonStyle.Dark" parent="@android:style/Widget.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_sysbar_menu_dark</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:minWidth">@dimen/action_button_min_width</item>
+    </style>
+
+    <style name="AccountDetailsStyle">
+        <item name="android:gravity">left</item>
+        <item name="android:layout_marginLeft">@dimen/account_item_horiz_padding</item>
+    </style>
+
+    <style name="LoginActivityActionBarStyle" parent="@style/ActionBarStyle.Dark">
+        <item name="android:icon">@drawable/blank</item>
+        <item name="android:displayOptions">showHome|showTitle</item>
+    </style>
+
+    <style name="CharityActivityActionBarStyle" parent="@style/ActionBarStyle.Dark">
+        <item name="android:icon">@drawable/blank</item>
+        <item name="android:displayOptions">showHome|showTitle</item>
+    </style>
+
+    <style name="AddEventActivityActionBarStyle" parent="@style/ActionBarStyle.Dark">
+        <item name="android:icon">@drawable/blank</item>
+        <item name="android:displayOptions">showHome|showTitle</item>
+    </style>
+
+    <style name="PublishFragmentActionBarStyle" parent="@style/ActionBarStyle.Dark">
+        <item name="android:icon">@drawable/blank</item>
+        <item name="android:displayOptions">homeAsUp|showHome|showTitle</item>
+    </style>
+
+    <style name="EventActivityActionBarStyle" parent="@style/ActionBarStyle.Dark">
+        <item name="android:icon">@drawable/blank</item>
+        <item name="android:displayOptions">showHome|showTitle</item>
+    </style>
+
+    <style name="RegistrationActivityActionBarStyle" parent="@style/ActionBarStyle.Dark">
+        <item name="android:displayOptions">homeAsUp|showHome|showTitle</item>
+    </style>
+
+    <style name="DialogTheme" parent="@style/Theme.Light.Dialog">
+        <item name="android:buttonStyle">@style/DialogButtonStyle</item>
+        <item name="android:editTextStyle">@style/DefaultEditTextStyle</item>
+        <item name="android:textViewStyle">@style/DialogTextViewStyle</item>
+        <item name="android:titleTextStyle">@style/DialogTitleTextViewStyle</item>
+        <item name="android:borderlessButtonStyle">@style/DialogBorderlessButtonStyle</item>
+    </style>
+
+    <style name="DefaultEditTextStyle" parent="@style/Widget.Light.EditText">
+        <item name="android:textAppearance">@style/DialogContentTextAppearance</item>
+        <item name="android:textColor">@color/dialog_content_text_color</item>
+        <item name="android:textColorHint">@color/dialog_hint_text_color</item>
+        <item name="android:background">@drawable/edit_text_background</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="RobotoEditTextStyle" parent="@style/Widget.Light.EditText">
+        <item name="android:textAppearance">@style/RobotoContentTextAppearance</item>
+        <item name="android:textColor">@color/dialog_content_text_color</item>
+        <item name="android:textColorHint">@color/dialog_hint_text_color</item>
+        <item name="android:background">@drawable/edit_text_background</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="DialogButtonStyle" parent="@style/Widget.Light.Button">
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:padding">@dimen/dialog_button_padding</item>
+        <item name="android:minWidth">88.0dip</item>
+        <item name="android:minHeight">36.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="DialogBorderlessButtonStyle" parent="@style/DialogButtonStyle">
+        <item name="android:textColor">@color/borderless_button_text_color</item>
+        <item name="android:background">@drawable/borderless_button_background</item>
+        <item name="android:minWidth">0.0dip</item>
+    </style>
+
+    <style name="DialogTextViewStyle" parent="@style/Widget.Light.TextView">
+        <item name="android:textAppearance">@style/DialogContentTextAppearance</item>
+        <item name="android:paddingLeft">@dimen/dialog_content_side_padding</item>
+        <item name="android:paddingTop">@dimen/dialog_content_top_padding</item>
+        <item name="android:paddingRight">@dimen/dialog_content_side_padding</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="DialogTitleTextViewStyle" parent="@style/DialogTextViewStyle">
+        <item name="android:textAppearance">@style/DialogTitleTextAppearance</item>
+        <item name="android:paddingTop">@dimen/dialog_title_top_padding</item>
+    </style>
+
+    <style name="DialogTitleTextAppearance" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">@dimen/xlarge_font_size</item>
+        <item name="android:textColor">@color/dialog_title_text_color</item>
+    </style>
+
+    <style name="DialogContentTextAppearance" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/medium_font_size</item>
+        <item name="android:textColor">@color/dialog_content_text_color</item>
+    </style>
+
+    <style name="RobotoContentTextAppearance" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/large_font_size</item>
+        <item name="android:textColor">@color/dialog_content_text_color</item>
+    </style>
+
+    <style name="CircularThemeProgressBar" parent="android:Widget.Holo.ProgressBar">
+        <item name="cpb_color">@array/gplus_colors</item>
+        <item name="cpb_stroke_width">@dimen/cpb_default_stroke_width</item>
+        <item name="cpb_min_sweep_angle">@integer/cpb_default_min_sweep_angle</item>
+        <item name="cpb_max_sweep_angle">@integer/cpb_default_max_sweep_angle</item>
+        <item name="cpb_speed">@string/cpb_default_speed</item>
+    </style>
+
+    <style name="LoginActivityTheme" parent="@style/CharityTheme">
+        <item name="android:homeAsUpIndicator">@android:color/transparent</item>
+        <item name="android:actionBarStyle">@style/LoginActivityActionBarStyle</item>
+    </style>
+
+    <style name="CharityActivityTheme" parent="android:Theme.NoTitleBar.Fullscreen"></style>
+
+    <style name="AddEventActivityTheme" parent="@style/CharityTheme">
+        <item name="android:homeAsUpIndicator">@android:color/transparent</item>
+        <item name="android:actionBarStyle">@style/AddEventActivityActionBarStyle</item>
+    </style>
+
+    <style name="PublishFragmentTheme" parent="@style/CharityTheme">
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_24dp</item>
+        <item name="android:actionBarStyle">@style/PublishFragmentActionBarStyle</item>
+    </style>
+
+    <style name="EventActivityTheme" parent="@style/CharityTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:homeAsUpIndicator">@android:color/transparent</item>
+        <item name="android:actionBarStyle">@style/EventActivityActionBarStyle</item>
+    </style>
+
+    <style name="StateText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">#33000000</item>
+    </style>
+
+    <style name="FormTitleTextAppearance" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:textColor">@color/dialog_title_text_color</item>
+    </style>
+
+    <style name="FormTitleTextViewStyle" parent="@style/Widget.Light.TextView">
+        <item name="android:paddingLeft">@dimen/flet_hint_text_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/flet_hint_text_padding_horizontal</item>
+        <item name="android:textAppearance">@style/FormTitleTextViewStyle</item>
+        <item name="android:paddingTop">@dimen/dialog_title_top_padding</item>
+    </style>
+
+    <style name="Widget.ActionBar" parent="@android:style/Widget.Holo.ActionBar" />
+
+    <style name="Theme.Light.Dialog" parent="@android:style/Theme.Holo.Light.Dialog" />
+
+    <style name="TextAppearance.Widget.ActionBar.Title" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title" />
+
+    <style name="Widget.Light.EditText" parent="@android:style/Widget.Holo.Light.EditText" />
+
+    <style name="Widget.Light.TextView" parent="@android:style/Widget.Holo.Light.TextView" />
+
+    <style name="Widget.Light.Button" parent="@android:style/Widget.Holo.Light.Button" />
+
+    <style name="AppThemeBase" parent="@style/Theme.AppCompat.Light">
+        <item name="android:selectableItemBackground">@drawable/touch_layer_background</item>
+    </style>
+
+</resources>

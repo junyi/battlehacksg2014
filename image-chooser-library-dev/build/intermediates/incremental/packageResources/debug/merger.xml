@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/dashsell/Desktop/SocialCharity/image-chooser-library-dev/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/dashsell/Desktop/SocialCharity/image-chooser-library-dev/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/dashsell/Desktop/SocialCharity/image-chooser-library-dev/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/dashsell/Desktop/SocialCharity/image-chooser-library-dev/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                path="/Users/dashsell/Desktop/SocialCharity/image-chooser-library-dev/res/values/strings.xml"
+                qualifiers="" >
+                <string name="lab_choose_from_gallery" >Choose from Gallery
+                </string>
+                <string name="lab_choose_option" >Choose option
+                </string>
+                <string name="app_name" >Image Chooser LIbrary
+                </string>
+                <string name="lab_take_picture" >Take a Picture
+                </string>
+                <string name="lab_capture_video" >Capture Video
+                </string>
+                <string name="lab_ok" >OK
+                </string>
+                <string name="lab_cancel" >Cancel
+                </string>
+            </file>
+            <file
+                path="/Users/dashsell/Desktop/SocialCharity/image-chooser-library-dev/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/dashsell/Desktop/SocialCharity/image-chooser-library-dev/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/dashsell/Desktop/SocialCharity/image-chooser-library-dev/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+        <source path="/Users/dashsell/Desktop/SocialCharity/image-chooser-library-dev/build/generated/res/rs/debug" />
+        <source path="/Users/dashsell/Desktop/SocialCharity/image-chooser-library-dev/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/dashsell/Desktop/SocialCharity/image-chooser-library-dev/src/debug/res" />
+    </dataSet>
+
+</merger>
